@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+/* search bar */
+.search-d-down {
+  position: absolute;
+  top: 40px;
+  background-color: #fff;
+  z-index: 99999;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.current-temp {
+  font-size: 50px;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-weather-icon {
+  max-width: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card {
+  background-color: gainsboro;
+  margin: 10px;
+  width: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.info-block {
+  border: 5px solid gainsboro;
+  background-color: gainsboro;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.history-item {
+  cursor: pointer;
+  margin: 5px 0;
+}
+.history-item:hover {
+  color:#fff;
+  transition:.5s;
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  -ms-transition:.5s;
+  -o-transition:.5s;
+}
+
+.main-weather-icon {
+  font-size: 70px;
 }
