@@ -1,12 +1,12 @@
 import React from 'react'
-import {Alert, Row, Col} from 'react-bootstrap'
+import {Alert, Row} from 'react-bootstrap'
 
 const ErrorAlert = () => {
     return (
         <Row>
-            <Col md={{ span: 6, offset: 3 }}>
+            <div className="col-8 offset-md-2">
                 <Alert variant="danger"> City not found, please try again</Alert>
-            </Col>
+            </div>
         </Row>
     )
 }

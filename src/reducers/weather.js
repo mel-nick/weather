@@ -22,12 +22,12 @@ export default function (state = initialState, action) {
             return {
                 ...state, 
                 weatherData: payload
-            }    
+            }
         case WEATHER_ERROR:
             return {
                 ...state,
                 error: payload,
-                loading: false
+                loading: true
             }
             
         default: 

@@ -1,7 +1,7 @@
 import React, {useState, Fragment } from 'react'
-import {InputGroup, FormControl, Button, Form, Row, Col} from 'react-bootstrap'
+import {InputGroup, FormControl, Button, Form, Col} from 'react-bootstrap'
 import { connect } from 'react-redux'
-import { getWeather } from '../../actions/weather'
+import { getWeather } from '../actions/weather'
 import PlacesAutocomplete, {
     geocodeByAddress,
     getLatLng
@@ -27,8 +27,8 @@ const SearchBar = ({ getWeather }) => {
     }
 
     return (
-            <Row>
-                <Col md={{ span: 8, offset: 2 }}>
+            <Fragment>
+                <Col className="col-md-8 order-2 order-md-1 offset-md-2">
                     <Form onSubmit={handleSubmit}>
                         <InputGroup className="my-5">
                         <PlacesAutocomplete
@@ -74,7 +74,7 @@ const SearchBar = ({ getWeather }) => {
                         </InputGroup>
                     </Form>
                 </Col>
-            </Row>
+            </Fragment>
     )
 }
 

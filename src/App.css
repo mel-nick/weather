@@ -19,6 +19,7 @@
   background-color: gainsboro;
   margin: 10px;
   width: 200px;
+  height: 250px;
 }
 
 .info-block {
@@ -42,3 +43,7 @@
 .main-weather-icon {
   font-size: 70px;
 }
+.card-weather-icon{
+  font-size: 50px
+}
+
