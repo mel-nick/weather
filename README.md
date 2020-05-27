@@ -1,4 +1,4 @@
-Simple React weather app. <br />
+Fully responsive React weather app. <br />
 Technologies used - React, React Hooks, Redux, GoogleMApsApi <br />
 Weather provider -  [https://openweathermap.org](https://openweathermap.org) <br />
 Link on working project -  [https://owm-weather-app.herokuapp.com](https://owm-weather-app.herokuapp.com)
